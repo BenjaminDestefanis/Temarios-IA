@@ -1,0 +1,11 @@
+{
+  "name": "temarios-ia",
+  "version": "1.0.0",
+  "description": "Temarios para IA ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Destefanis",
+  "license": "ISC"
+}
