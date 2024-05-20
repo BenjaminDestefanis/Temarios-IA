@@ -11,6 +11,9 @@ def calular_estadisticas(datos):
 # 2. Calculo de varianza
 
 def calcular_varianza(datos):
+    # La funcion recibe una lis ta de numeros y debe retornar 
+    # la varianza de ese conjunto de nuemros.
+    # TU CODIGO AQUI:
     return datos
 
     
