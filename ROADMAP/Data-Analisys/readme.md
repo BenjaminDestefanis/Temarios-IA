@@ -33,3 +33,18 @@ Recordemos que como analistas de datos , no miramos datos constantemente , si no
 
 https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=3VQqVi-3ScBC
 
+
+# Jupyter Notebook
+
+es un ecosistema de herrmaientas de codigo abierto
+diferencia entre jupiter -notebook - interfas agradeble , diferencia con jupyter labs.
+Ambos son similares
+
+# Notebooks AI
+
+es una extension para Jupyter.
+Jupiter sirve mucho por que es un entorno interactivo en tiempo real para producir o explorar nuestros datos  y hacer nuestro analisi de datos, sirve para disparar comandos de manera indmediata , se especifica en el analisi de datos, aqui no estamos viendo constantemente los datos, aqui no tenemos referencia visual como en excel y otros .
+De esta manera es escalable . 
+Los datos estan en nuestra mente , para trabajar con python. Tener en nuestra mente como va a funcionar , tenemos una referencia , en nuestra mente de como se ven esos datos.
+Esto es siminilar a un interpre de python
+
