@@ -30,3 +30,6 @@ Este es el analisis de datos, el objetivo final es proporcionar evidencia de nue
 # Diferencias entre el "Analista de Datos" y el "Cientifico
 
 Recordemos que como analistas de datos , no miramos datos constantemente , si no que las herramientas filtran esos datos. 
+
+https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=3VQqVi-3ScBC
+
