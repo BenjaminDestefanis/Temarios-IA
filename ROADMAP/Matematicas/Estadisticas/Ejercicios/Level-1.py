@@ -24,3 +24,10 @@ def calcular_varianza_desviacion(datos):
     # TU CODIGO AQUI:
     return datos
 
+# 4. Calcular el Percentil
+
+def calcular_percentil(datos):
+    # La funcion debe calcular un  percentil dado un conjuto de datos
+    # y el percentil deseado
+    # TU CODIGO AQUI:
+    return datos
