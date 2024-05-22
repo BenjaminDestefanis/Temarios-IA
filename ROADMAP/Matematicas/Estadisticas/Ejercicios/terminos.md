@@ -1,0 +1,2 @@
+## Varianza
+## Desviacion Estandar

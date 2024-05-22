@@ -16,4 +16,11 @@ def calcular_varianza(datos):
     # TU CODIGO AQUI:
     return datos
 
-    
+# 3. Calcular Varianza y Desviacion estandar
+
+def calcular_varianza_desviacion(datos):
+    # La fincion deretornar la varianza y la desviacion de 
+    # estandar de un conjunto de datos
+    # TU CODIGO AQUI:
+    return datos
+
