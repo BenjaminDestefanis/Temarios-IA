@@ -106,3 +106,5 @@ Tareas de resolución de problemas.
 Exámenes de repaso al final del módulo.
 Conclusión
 Este primer módulo establece una base sólida en álgebra básica y geometría analítica, preparándote para abordar temas más avanzados en álgebra lineal, cálculo y análisis matemático. Si tienes alguna pregunta o necesitas más detalles sobre algún tema específico, no dudes en preguntar. ¡Vamos a profundizar en estos conceptos juntos!
+
+
