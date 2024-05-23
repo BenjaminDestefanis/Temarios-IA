@@ -87,9 +87,23 @@ La raíz cuadrada de un número 'a' es un numero b(2) = a
 
 Propiedades :
 √ = Equivale a raiz Cuadrada
-√a x b
+√a x b = √a x √b
+√a/b = √a / √b
 
+"""
 
+# Ejercicios Basicos
 
+""" 
+1) Dado un número natural n, calcular su cuadrado.
+2) Dado un número entero a, calcular su valor absoluto.
+3) Dados dos números reales a y b, calcular su suma.
+4) Dados dos números reales a y b, calcular su resta.
+5) Dados dos números reales a y b, calcular su multiplicación.
+6) Dados dos números reales a y b, calcular su división.
+7) Dado un número entero a y un número natural n, calcular a^n.
+8) Dado un número real a, calcular su raíz cuadrada.
+9) Dado un número real a, calcular su cuarta raíz.
+10) Dados tres números reales a, b y c, calcular la suma de los cuadrados de a y b, y restarle el cuadrado de c.
 
 """
