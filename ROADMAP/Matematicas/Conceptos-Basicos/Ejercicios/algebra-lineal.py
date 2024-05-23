@@ -29,3 +29,8 @@ RESTA : U - V = [u1 - v1, u2 - v2, ..., un - vn]
 Un espacio vectorial es un copnjunto de vectores que se pueden sumar entre si, pueden multiplicar por escalares y cumplen ciertas propiedades
 
 """
+
+#1. Calculo de magnitud y direccion de un vector : 
+# Tenemos un vector (v = [2, -3, 4]). Debemos calcular la magnitud (modulo) y la direccion del vector.
+# Sea otro vector (u = [-1, 5, 2] ). Debemos calcular el angulo entre u y el eje positivo.
+#
