@@ -113,4 +113,16 @@ def subspace_dimensions(vectors):
     basis = gram_schmidt(vectors)
     return len(basis)
 
-# 5. Interseccion de
+# 5. Interseccion de subspacios
+# Dados 2 subspacios en R^3, la funcion debe encontrar un vector que este en la interseccion de ambos, y si lo encuentra debe retornar el vector, si no debe retornar false.
+# Nuestro algoritmo debe recorrer todos los vectores en el primer subspacio y verificar si tambien estan en el segundo subespacio
+
+def interseccion(subspace1, subspace2):
+    for v1 in subspace1:
+        if any(v1 == v2 for v2 in subspace2):
+            return v1
+        else:
+            return False
+        
+
+
