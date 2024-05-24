@@ -44,7 +44,7 @@ Un espacio vectorial es un copnjunto de vectores que se pueden sumar entre si, p
 
 # SOLUCION [Recordad que las soluciones deben estar en otro documento]
 
-# C
+# Con NUMPY
 
 import numpy as np
 
@@ -67,3 +67,50 @@ def is_subspace(vectors):
                 return False
 
     return True
+
+# Sin NUMPY 
+
+def is_subspace(vectors):
+    # Verificar si el vector cero está en el conjunto
+    zero_vector = [0]*len(vectors[0])
+    if not any(vector == zero_vector for vector in vectors):
+        return False
+
+    # Verificar la cerradura bajo la suma de vectores
+    for v1 in vectors:
+        for v2 in vectors:
+            if not any(v1[i] + v2[i] == v[i] for i in range(len(v1)) for v in vectors):
+                return False
+
+    # Verificar la cerradura bajo la multiplicación por escalares
+    for v in vectors:
+        for scalar in range(-10, 10):
+            if not any(scalar * v[i] == v2[i] for i in range(len(v)) for v2 in vectors):
+                return False
+
+    return True
+
+
+
+# 3. Base de un Subespacio
+# Recibimos un conjunto de vectores R^3 ,y la funcion debe encontrar una base para el subspacio que generan.
+# TIP: Se puede utilizar el teorema de GRAM-SHMIDT
+# El teorema de Gram-Schmidt asegura que dado un conjunto de vectores linealmente independientes en un espacio vectorial real con un producto interior dado, podemos encontrar otros vectores que ahora sean ortonormales, que generen lo mismo y que además «apunten hacia un lado similar» a los vectores originales
+
+def gram_schmidt(vectors):
+    basis = []
+    for v in vectors:
+        w = v - sum(np.dot(v, b)*b for b in basis)
+        if (w > 1e-10).any():  
+            basis.append(w/np.linalg.norm(w))
+    return np.array(basis)
+
+# 4. Dimension de un subespacio
+# Una ves mas recibimos un conjunto de vectores R^3. ya nuestra funcion debe encontrar el subespacio que generan. 
+# TIP: La dimension de un subespacio es igual numero de vectores en su base. Aqui tambien debemos utilizar el algoritmo de GRAM-SCHMIDT para encontrar una base y luego contar el numero de vectores en ella.
+
+def subspace_dimensions(vectors):
+    basis = gram_schmidt(vectors)
+    return len(basis)
+
+# 5. Interseccion de
