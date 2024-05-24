@@ -125,4 +125,7 @@ def interseccion(subspace1, subspace2):
             return False
         
 
-
+# 6. Suma directa de subspacios
+# Recibiendo 2 subespacios en R^3, la funcion debe verificar si su suma es directa
+# En caso de que sea dea directa , debe retornar True, caso contrario, retorna False
+# TIPS: la suma de 2 subspacios es directa si la interseccion de ambos es solo el vector cero 
