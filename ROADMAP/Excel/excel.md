@@ -38,3 +38,4 @@ Estas herramientas aceleran drasticamente el acceso a los datos, reducir errores
 En esencia, estas dos funciones no son sólo funciones básicas; Sirven como herramientas esenciales para un análisis de datos eficiente.
 
 [Ejercicios-Exel-LOOKUP] Ir a Exel/Ejercicios/level3/LOOKUP.md
+
