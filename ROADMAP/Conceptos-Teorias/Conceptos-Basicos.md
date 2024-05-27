@@ -9,6 +9,23 @@ Otros tipos de datos de dimensiones superiores como series temporales, datos de 
 Por otro lado, la calidad y la gestión de los datos son conceptos clave para garantizar conjuntos de datos limpios y confiables. Al comprender estos conceptos fundamentales, un analista de datos puede transformar datos sin procesar en conocimientos significativos.
 
 
+### TIPOS DE ANALISIS
+
+ANALISI DESCTRIPTIVO - ANALISIS DE DIAGNOSTICO - ANALISIS PREDICTIVO y ANALISIS PRESCRITIVO
+La preguntas a responder son: ¿Que paso? - ¿Porque sucedio? - ¿Que podria pasar? - ¿Como proceder?. Asi un analista puede puede transformar conjunto de datos sin procesar en conocimientos estrategicos.
+
+### ANALISIS DESCRIPTIVO
+
+El análisis descriptivo es uno de los tipos fundamentales de análisis de datos que proporciona información sobre el pasado. 
+Como analista de datos, utilizar el análisis descriptivo implica la técnica de utilizar datos históricos para comprender los cambios que se han producido en una empresa a lo largo del tiempo.
+Principalmente preocupado por el aspecto "qué ha sucedido", analiza datos sin procesar del pasado para hacer inferencias e identificar patrones y tendencias. Esto ayuda a las empresas a comprender sus fortalezas y debilidades y a identificar problemas operativos, preparando el escenario para procesos precisos de inteligencia empresarial y toma de decisiones.
+
+### ANALISIS DIAGNOSTICO
+
+### ANALISIS PREDICTIVO
+
+### ANALISIS PRESCRIPTIVO
+
 ### DATA COLLECTION (COLECCION DE DATOS)
 La coleccion de datos es el proceso de recopilar y medir informacion sobre variables especificas de una manera sistematica establecida que permita al analista de datos responder preguntas relevantes y evaluar resultados.
 Es el paso fundamental para cualquier esquema de analisis de datos, ya que es la primera linea de interaccion con los datos sin procesar que luego se transforman en conocimientos viables.
@@ -35,4 +52,15 @@ La visualización de datos es una habilidad esencial en el conjunto de herramien
 Esta práctica consiste en transformar datos sin procesar complejos en un formato gráfico que permita una comprensión **más sencilla de grandes conjuntos de datos, tendencias, valores atípicos y patrones importantes**.
 Ya sean *gráficos circulares, gráficos de líneas, gráficos de barras o mapas de calor*, las técnicas de visualización de datos no solo agilizan el análisis de datos, sino que también facilitan una comunicación más efectiva de los hallazgos a otros.
 Este concepto clave subraya la importancia de presentar los datos de una manera digerible y visualmente atractiva para impulsar la toma de decisiones basada en datos en una organización.
+
+### STATISTICAL ANALYSIS - A KEY CONCEPT FOR DATA ANALYST (ANALISIS ESTADISTICO)
+
+El análisis estadístico juega un papel fundamental en las funciones diarias de un analista de datos. Abarca **recopilar, examinar, interpretar y presentar datos, lo que permite a los analistas de datos descubrir patrones, tendencias y relaciones, deducir conocimientos y respaldar la toma de decisiones en diversos campos**.
+Al aplicar conceptos estadísticos, los analistas de datos pueden transformar conjuntos de datos complejos en información comprensible que las organizaciones pueden aprovechar para obtener conocimientos prácticos. Esta piedra angular del análisis de datos permite a los analistas ofrecer modelos predictivos, análisis de tendencias y valiosos conocimientos empresariales, lo que la hace indispensable en el mundo del análisis de datos. Es vital que los analistas de datos comprendan dichas metodologías estadísticas para descifrar eficazmente los grandes volúmenes de datos que manejan.
+
+### MACHINE LEARNING - (APRENDIZAJE AUTOMATICO - IA)
+
+El aprendizaje automático, un subconjunto de la inteligencia artificial, es una herramienta indispensable en manos de un analista de datos.
+Proporciona la capacidad de aprender automáticamente, mejorar a partir de la experiencia y tomar decisiones sin estar programado explícitamente.
+En el contexto de un analista de datos, el aprendizaje automático contribuye significativamente a descubrir conocimientos ocultos, reconocer patrones o realizar predicciones basadas en grandes cantidades de datos. Mediante el uso de diversos algoritmos y modelos, los analistas de datos pueden aprovechar el aprendizaje automático para convertir datos sin procesar en información significativa, lo que lo convierte en un concepto fundamental en el análisis de datos.
 
