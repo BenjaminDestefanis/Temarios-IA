@@ -18,4 +18,23 @@ Ya sea que esté calculando, extrayendo o fusionando datos, las funciones básic
 Permite crear declaraciones condicionales especificas, métricas personalizadas, aplicar formato condicional, automatizar tareas, y generar informes dinamicos. 
 Los analistas utilizan "IF" para categorizar datos, manejar valores faltantes, calcular bonificaciones o metricas personalizadas, resaltar tendencias y mejorar visualizaciones, lo que en última instancia facilita la toma de decisiones informadas a través del análisis de datos. 
 
-[Ejercicios-Exel-IF] Ir a Exel/Ejercicios/IF.md
+[Ejercicios-Exel-IF] Ir a Exel/Ejercicios/level1/IF.md
+
+### DATEIF
+
+Calcula diferencia entre 2 fechas. La funcion toma en cuenta 3 parametros:
+FECHA DE INICIO - FECHA DE FINALIZACION - TIPO DE DIFERENCIA requerida (medida en años, meses, dias, etc)
+Cuando hablamos de datos, cuando se trata de datos de series de tiempo o cuando necesitamos descubrir tendencias durante periodods especificos, DATEIF entra en accion.
+Reconocer su funcionalidad permitirá a un analista de datos manipular o dar forma a los datos de forma progresiva y eficiente.
+
+[Ejercicios-Exel-DATEIF] Ir a Exel/Ejercicios/level2/DATEIF.md
+
+### VLOOKUP - HLOOKUP
+
+Funciones de busqueda yreferencia versatiles que pueden encontrar datos especificos en una amplia gama, lo que brinda facilidad y conveniencia en las tareas de recuperacion de datos.
+VLOOKUP sirve para buscar datos en una tabla verticalmente.
+HLOOKUP sirve para buscar datos en una tabla horizontalmente.
+Estas herramientas aceleran drasticamente el acceso a los datos, reducir errores en la extracion de datos y simplificar el proceso general de análisis.
+En esencia, estas dos funciones no son sólo funciones básicas; Sirven como herramientas esenciales para un análisis de datos eficiente.
+
+[Ejercicios-Exel-LOOKUP] Ir a Exel/Ejercicios/level3/LOOKUP.md
