@@ -16,15 +16,28 @@ La preguntas a responder son: ¿Que paso? - ¿Porque sucedio? - ¿Que podria pas
 
 ### ANALISIS DESCRIPTIVO
 
-El análisis descriptivo es uno de los tipos fundamentales de análisis de datos que proporciona información sobre el pasado. 
-Como analista de datos, utilizar el análisis descriptivo implica la técnica de utilizar datos históricos para comprender los cambios que se han producido en una empresa a lo largo del tiempo.
-Principalmente preocupado por el aspecto "qué ha sucedido", analiza datos sin procesar del pasado para hacer inferencias e identificar patrones y tendencias. Esto ayuda a las empresas a comprender sus fortalezas y debilidades y a identificar problemas operativos, preparando el escenario para procesos precisos de inteligencia empresarial y toma de decisiones.
+Proporciona información sobre el pasado. 
+Implica la técnica de utilizar datos históricos para comprender los cambios que se han producido en una empresa a lo largo del tiempo.
+Principalmente enfoque del aspecto "qué ha sucedido", sirve para hacer inferencias e identificar patrones y tendencias. Esto ayuda a las empresas a comprender sus fortalezas y debilidades y a identificar problemas operativos, preparando el escenario para procesos precisos de inteligencia empresarial y toma de decisiones.
 
 ### ANALISIS DIAGNOSTICO
 
+Estudia el desempeño para comprender por que sucedio algo.
+Las tecnicas como el desglose, descubrimiento de datos, correlaciones y el analisis de causa-efecto, ayudan a mirar mas alla de las tendencias generales e identificar la causa raiz de los cambios observados en los datos.
+En consecuencia, esto permite a las empresas abordar cuestiones operativas y estratégicas de forma eficaz, permitiéndoles comprender las razones detrás de dichas cuestiones.
+Este análisis diagnóstico es un activo imprescindible que mejora su capacidad de análisis.
+
 ### ANALISIS PREDICTIVO
 
+Es la practicade extraer informacion de conjuntos de datos existentes para determinar patrones y pronosticar resultados y tendencias futuros. 
+Aqui se aplican algoritmos estadísticos, técnicas de aprendizaje automático e inteligencia artificial a los datos para anticipar resultados futuros.
+El análisis predictivo permite a las organizaciones ser proactivas, progresistas y estratégicas al brindarles información valiosa sobre sucesos futuros. Es una herramienta poderosa que brinda a las empresas una ventaja competitiva significativa al permitir la gestión de riesgos, la identificación de oportunidades y la toma de decisiones estratégicas.
+
 ### ANALISIS PRESCRIPTIVO
+
+Su objetivo es recomendar diversas acciones utilizando predicciones basadas en parametros conocidos para ayudar a los tomadores de decisiones a comprender los resultados probables.
+Este emplea una combinacion de tecnicas y herramientas como algoritmos, machine learning, procedimientos de modelado computacionl y estructuras de arboles de decisiones para permitir la toma de decisioes automatizada.
+Este no solo anticipa lo que sucederá y cuándo sucederá, sino que también explica por qué sucederá, contribuyendo a la importancia del papel de un analista de datos en una organización.
 
 ### DATA COLLECTION (COLECCION DE DATOS)
 La coleccion de datos es el proceso de recopilar y medir informacion sobre variables especificas de una manera sistematica establecida que permita al analista de datos responder preguntas relevantes y evaluar resultados.
