@@ -14,3 +14,8 @@ La gran cantidad de funciones complejas y simples de Excel lo convierten en una 
 Ya sea que esté calculando, extrayendo o fusionando datos, las funciones básicas de Excel pueden hacer que estas tareas sean más sencillas, garantizando la precisión necesaria de los datos que proporciona.
 
 ### IF - (SI)
+
+Permite crear declaraciones condicionales especificas, métricas personalizadas, aplicar formato condicional, automatizar tareas, y generar informes dinamicos. 
+Los analistas utilizan "IF" para categorizar datos, manejar valores faltantes, calcular bonificaciones o metricas personalizadas, resaltar tendencias y mejorar visualizaciones, lo que en última instancia facilita la toma de decisiones informadas a través del análisis de datos. 
+
+[Ejercicios-Exel-IF] Ir a Exel/Ejercicios/IF.md
