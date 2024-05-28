@@ -1,0 +1,4 @@
+## Charting
+
+Excel sirve como una poderosa herramienta para los analistas de datos cuando se trata de organización, manipulación, recuperación y visualización de datos. Una de las increíbles características que ofrece es 'Gráficos'. 
+Básicamente, crear gráficos significa crear representaciones visuales de datos, lo que ayuda a los analistas de datos a comprender fácilmente datos complejos y mostrar historias convincentes sobre tendencias, correlaciones y análisis estadísticos de datos. Estos gráficos varían desde simples gráficos de barras hasta gráficos de superficies y acciones en 3D más complejos. Como analista de datos, dominar los gráficos en Excel mejora sustancialmente la interpretación de los datos, lo que facilita la extracción de información significativa a partir de conjuntos de datos sustanciales.
