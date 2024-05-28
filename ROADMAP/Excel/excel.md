@@ -39,3 +39,20 @@ En esencia, estas dos funciones no son sólo funciones básicas; Sirven como her
 
 [Ejercicios-Exel-LOOKUP] Ir a Exel/Ejercicios/level3/LOOKUP.md
 
+### REPLACE/SUBSTITUTE
+Sirve para alterar o ajustar ciertos valores.
+Esta necesidad puede surgir debido a entradas incorrectas o inexactas, valores atípicos que afectan los resultados o simplemente la necesidad de reescribir ciertos valores para una mejor interpretación y análisis de los datos. 
+
+Esta funcion proporciona una manera eficiente de reemplazar ciertos valores en un conjunto de datos por otro. Esta función fundamental no solo es aplicable a números sino que también es funcional con datos categóricos. 
+En el análisis de datos, esta función de reemplazo o sustitución es absolutamente crítica, contribuyendo en gran medida a la limpieza, manipulación y, posteriormente, a la precisión y confiabilidad de los resultados analíticos obtenidos.
+
+[Ejercicios-Exel-REPLACE] Ir a Exel/Ejercicios/level4/LOOKUP.md
+
+### UPPER/LOWER/PROPER-FUNCTIONS
+Sirven para manipular y transformar datos de texto.
+Como analistas es posible que los datos de texto no siempre cumplan con un formato consistente. En estos casos entran en juego estas funciones.
+UPPER convierte todo el texto en mayuscula, LOWER hace lo contrario.
+y PROPER , convierte solo la primer letra de la palabra en mayuscula.
+
+[Ejercicios-Exel-UPPERLOWERPROPER] Ir a Exel/Ejercicios/level5/UPPERLOWERPROPER.md
+
