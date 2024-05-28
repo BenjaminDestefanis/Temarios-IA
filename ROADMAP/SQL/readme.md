@@ -68,4 +68,8 @@ Las bases de datos NoSQL (no solo SQL) se refieren a bases de datos no relaciona
 * *Capacidades de consulta limitadas* : algunas bases de datos NoSQL carecen de soporte de agregación y consultas complejas o utilizan lenguajes de consulta específicos.
 * *Coherencia más débil* : muchas bases de datos NoSQL siguen las propiedades BASE (básicamente disponible, estado suave, consistencia eventual) que brindan garantías de consistencia más débiles que las bases de datos compatibles con ACID.
 
+### Mini-Guia mongoDB
+
 [Intro-MongoDB](https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql)
+
+
