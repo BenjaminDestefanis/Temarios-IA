@@ -33,5 +33,39 @@ LIMITACIONES Y DESVENTAJAS:
 
 #### SQL vs noSQL
 
-### SQL
+### Bases de datos SQL
 
+(Lenguaje de consulta estructurado) son bases de datos relacionales.
+Tienen un esquema predefinido y los datos se almacenan en tablas que constan de filas y columnas. Las bases de datos SQL siguen las propiedades ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad) para garantizar transacciones confiables. Algunas bases de datos SQL populares incluyen MySQL, PostgreSQL y Microsoft SQL Server.
+
+**Ventajas de las bases de datos SQL:**
+
+*Esquema predefinido* : Ideal para aplicaciones con una estructura fija.
+*Transacciones ACID* : garantiza la coherencia y confiabilidad de los datos.
+*Soporte para consultas complejas* : las consultas SQL enriquecidas pueden manejar relaciones de datos complejas y operaciones de agregación.
+*Escalabilidad* : escalamiento vertical agregando más recursos al servidor (por ejemplo, RAM, CPU).
+
+**Limitaciones de las bases de datos SQL:**
+
+* *Esquema rígido* : las actualizaciones de la estructura de datos requieren mucho tiempo y pueden provocar tiempo de inactividad.
+* *Escalado* : dificultades en el escalado horizontal y la fragmentación de datos en varios servidores.
+* *No es muy adecuado para datos jerárquicos* : requiere varias tablas y JOIN para modelar estructuras en forma de árbol.
+
+### Bases de datos noSQL
+
+Las bases de datos NoSQL (no solo SQL) se refieren a bases de datos no relacionales, que no siguen un esquema fijo para el almacenamiento de datos. En su lugar, utilizan un formato flexible y semiestructurado como documentos JSON, pares clave-valor o gráficos. MongoDB, Cassandra, Redis y Couchbase son algunas bases de datos NoSQL populares.
+
+**Ventajas de las bases de datos NoSQL:**
+
+* *Esquema flexible* : se adapta fácilmente a los cambios sin interrumpir la aplicación.
+* *Escalabilidad* : escalamiento horizontal mediante la partición de datos en múltiples servidores (fragmentación).
+* *Rápido* : Diseñado para lecturas y escrituras más rápidas, a menudo con un lenguaje de consulta más simple.
+* *Manejo de grandes volúmenes de datos* : más adecuado para gestionar big data y aplicaciones en tiempo real.
+* *Soporte para varias estructuras de datos* : diferentes bases de datos NoSQL satisfacen diversas necesidades, como almacenes de documentos, gráficos o valores-clave.
+
+**Limitaciones de las bases de datos NoSQL:**
+
+* *Capacidades de consulta limitadas* : algunas bases de datos NoSQL carecen de soporte de agregación y consultas complejas o utilizan lenguajes de consulta específicos.
+* *Coherencia más débil* : muchas bases de datos NoSQL siguen las propiedades BASE (básicamente disponible, estado suave, consistencia eventual) que brindan garantías de consistencia más débiles que las bases de datos compatibles con ACID.
+
+[Intro-MongoDB](https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql)
