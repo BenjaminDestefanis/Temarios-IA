@@ -21,3 +21,6 @@ WHERE condition;
 
 -- Aqui el SELECT se utiliza para selecionar datos de otra tabla, para insertarlos en otra tabla
 
+-- En todos los casos, si inserta datos en una tabla donde algunas columnas tienen valores predeterminados, no necesita especificar esas columnas en su INSERT INTOdeclaración.
+
+-- Nota: tenga cuidado al insertar datos en una base de datos ya que SQL no tiene un comando de confirmación. Entonces, una vez que ejecuta la instrucción de inserción, los registros se insertan y no puede deshacer la operación.

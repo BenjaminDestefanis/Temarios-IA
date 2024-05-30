@@ -1,22 +1,10 @@
--- Ejemplos:
+-- EJEMPLOS:
+
+-- DELETE en SQL le ayuda a eliminar registros existentes de una base de datos. Sin embargo, !!!! tenga en cuenta que es una operación destructiva y puede borrar permanentemente datos de su base de datos !!!!.
 
 -- 1.
-SELECT columns
-FROM table_name
-WHERE condition;
+DELETE FROM table_name;
+
+-- La declaracion DELETE sin la clausula WHERE elimina todas las filas de una tabla. !! ESTA OPERACION ES IRREVERSIBLE!!!
 
 -- 2.
-SELECT *
-FROM Customers;
-
--- 3.
-SELECT col1, col2, col2 
-FROM Customers;
-
--- 4.
-SELECT * 
-FROM Customers 
-ORDER BY Country DESC;
-
--- 5.
-
