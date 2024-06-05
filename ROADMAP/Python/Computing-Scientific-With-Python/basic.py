@@ -1,3 +1,13 @@
+#VARIABLES
+#funcion PRINT()
+#pase de argumentos a funciones
+#INDEX
+#function len() - type() 
+# ASPECTOS y CONVENCIONES ( palabras reservadas / nombres de variables / case sensitive / snake_case)
+# funcion find()
+
+
+
 # Variables
 
 #Variables are an essential part of Python and any programming language. A variable is a name that references or points to an object. You can declare a variable by writing the variable name on the left side of the assignment operator = and specifying the value to assign to that variable on the right side of the assignment operator:
@@ -16,3 +26,13 @@ string_2 = 'I am also a string'
 #Delete your number variable and its value. Then, declare another variable called text and assign the string 'Hello World' to this variable.
 
 
+# function print()
+
+# You can use the built-in function print() to print the output of your code on the terminal.
+
+# Functions are reusable code blocks that you can call, or invoke, to run their code when you need them. To call a function, you just need to write a pair of parentheses next to its name. You will learn more about functions very soon.
+
+# For now, go to a new line and add an empty call to the print() function. You should not see any output yet.
+
+
+#Each string character can be referenced by a numerical index. The index count starts at zero. So the first character of a string has an index of 0. For example, in the string 'Hello World', 'H' is at index 0, 'e' is at index 1, and so on.
