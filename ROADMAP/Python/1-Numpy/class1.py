@@ -67,12 +67,24 @@ print(f"{f.CYAN}ARRAY:{rs}{my_array} \n")
 
 # ATRIBUTOS DE ARRAY
 
+# ndim - Retorna la dimension del array
+
 a = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 
 print(a)
 numero_de_dimensiones = a.ndim  # Retorna el numero de dimensiones (Profundidad)
-print(f"{f.BLUE}{numero_de_dimensiones}{rs}")
+print(f"{f.BLUE}NUMERO DE DIMENSIONES:{numero_de_dimensiones}{rs}")
+
+# shape - Retorna una Tupla , El nuemro de elemntos y el largo de las dimensiones
+
+numero_de_elementos = a.shape
+
+if len(a.shape) == a.ndim:
+    print(f"{f.YELLOW}Este dato siempre debe ser igual para que todo este bien.{rs}")
+print(f"{f.GREEN}{numero_de_elementos}{rs}")
 
 
 
 
+
+# RESUMEN - NDIM - SHAPE - SIZE - DTYPE
