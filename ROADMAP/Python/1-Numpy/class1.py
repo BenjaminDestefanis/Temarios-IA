@@ -47,3 +47,22 @@ print(f"{f.MAGENTA}RANGE ARRAY: {rs}{range_array} \n")
 linspace_array = np.linspace(0, 1, 5)
 
 print(f"{f.MAGENTA}LINSPACE ARRAY: {rs}{linspace_array} \n")
+
+
+#  Experiemtando con Arrays - TENER EN CUENTA - LOS ARRAYS SON MUTABLES
+
+my_array = np.array([1,2,3,4,5,6])
+print(f"{f.CYAN}ARRAY:{rs}{my_array} \n")
+my_array[2] = 50
+print(f"{f.CYAN}ARRAY:{rs}{my_array} \n")
+
+second_array = my_array[2:4]
+print(f"{f.GREEN}SECOND ARRAY:{rs}{second_array} \n")
+second_array[1] = 94
+print(f"{f.GREEN}SECOND ARRAY:{rs}{second_array} \n")
+
+# El cambio del segundo array, llega a alterar el primero
+
+print(f"{f.CYAN}ARRAY:{rs}{my_array} \n")
+
+
