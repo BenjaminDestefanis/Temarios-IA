@@ -2,8 +2,8 @@ import numpy as np
 import colorama
 colorama.init()
 
-fore  = colorama.Fore
-reset_style = colorama.Style.RESET_ALL
+f = colorama.Fore
+rs = colorama.Style.RESET_ALL
  
 # Estos array tambien se los conoce como vectores.
 # Creacion de Array unifimensional.
@@ -26,24 +26,24 @@ print( f"Vector unidiemsional: {vector_unidimensional} \n Vector bidimensional: 
 # Array de ceros - zeros(cant. de arrays, cant. de valores)
 zeros = np.zeros((2, 3))
 
-print(f"ZEROS: {zeros} \n")
+print(f"{f.MAGENTA}ZEROS: {rs}{zeros} \n")
 
 # Array de unos - ones(cant. de arrays, cant. de valores)
 ones = np.ones((3, 3))
 
-print(f"ONES: {ones} \n")
+print(f"{f.MAGENTA}ONES: {rs}{ones} \n")
 
 # Array con valores aleatorios - rand(cant. de arrays, cant. de valores)
 random = np.random.rand(2, 2)
 
-print(f"{fore.MAGENTA}RANDOM: {reset_style}{random} \n " )
+print(f"{f.MAGENTA}RANDOM: {rs}{random} \n " )
 
 # Array con un rango de valores - range_array(numero inicial, numero final, intervalo)
 range_array = np.arange(0, 10, 3)
 
-print(f"RANGE ARRAY: {range_array} \n")
+print(f"{f.MAGENTA}RANGE ARRAY: {rs}{range_array} \n")
 
 # Array con valores equidistantes - profuncdizar
 linspace_array = np.linspace(0, 1, 5)
 
-print(f"LINSPACE ARRAY: {linspace_array} \n")
+print(f"{f.MAGENTA}LINSPACE ARRAY: {rs}{linspace_array} \n")
