@@ -61,8 +61,18 @@ print(f"{f.GREEN}SECOND ARRAY:{rs}{second_array} \n")
 second_array[1] = 94
 print(f"{f.GREEN}SECOND ARRAY:{rs}{second_array} \n")
 
-# El cambio del segundo array, llega a alterar el primero
+# El cambio del segundo array, llega a alterar el primero array
 
 print(f"{f.CYAN}ARRAY:{rs}{my_array} \n")
+
+# ATRIBUTOS DE ARRAY
+
+a = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+
+print(a)
+numero_de_dimensiones = a.ndim  # Retorna el numero de dimensiones (Profundidad)
+print(f"{f.BLUE}{numero_de_dimensiones}{rs}")
+
+
 
 
